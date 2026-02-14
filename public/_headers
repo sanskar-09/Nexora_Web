@@ -1,0 +1,8 @@
+# Security headers (Netlify / compatible hosts)
+# Prevents clickjacking, MIME sniffing, and restricts referrer
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
